@@ -1,0 +1,40 @@
+.expenses {
+}
+
+.expense-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #039fd6;
+    padding: 13% 1% 3% 1%;
+}
+
+.redirectButton {
+    background-color: #039fd6;
+    border: none;
+    color:#ffffff;
+    font-size: 16px; 
+    border-color: transparent;
+    transition: 0.5s;
+}
+
+.redirectButton:hover {
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.expenses-total{
+
+}
+
+.expenses-calendar{
+
+}
+
+.expenses-statistics{
+
+}
+
+.expenses-table{
+}

@@ -1,0 +1,101 @@
+.category-history {
+    display: flex;
+    flex-wrap: wrap
+}
+
+#House, #Food, #Family, #Transport, #Health, #Beauty, #Rest, #Other, #All_budget {
+    display: flex;
+    align-items: center;
+    width: calc(100%/3);
+    justify-content: center;
+}
+
+#House::after {
+    content: '';
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #ffa822;
+    margin-left: 10px;
+}
+
+#Food::after {
+    content: '';
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #134e6f;
+    margin-left: 10px;
+}
+
+#Family::after {
+    content: '';
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #ff6150;
+    margin-left: 10px;
+}
+
+#Transport::after {
+    content: '';
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #1ac0c6;
+    margin-left: 10px;
+}
+
+#Health::after {
+    content: '';
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #dee0e6;
+    margin-left: 10px;
+}
+
+#Beauty::after {
+    content: '';
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #31ff22;
+    margin-left: 10px;
+}
+
+#Rest::after {
+    content: '';
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #d722ff;
+    margin-left: 10px;
+}
+
+#Other::after {
+    content: '';
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #fff522;
+    margin-left: 10px;
+}
+
+#All_budget::after {
+    content: '';
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #2287ff;
+    margin-left: 10px;
+}

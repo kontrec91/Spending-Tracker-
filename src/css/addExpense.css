@@ -1,0 +1,53 @@
+.addExpense{
+    display: flex;
+    flex-direction: column;
+    /* padding: 30px;
+    width: 400px;
+    border: 1px solid #000000; */
+    background-color: #f9f9f9;
+}
+
+.addExpense-header {
+    display: flex;
+    /* margin-bottom: 25px; */
+    justify-content: space-between;
+    align-items: center;
+    background-color: #039fd6;
+    padding: 11% 1% 3% 1%;
+}
+.add-income-title {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.button-Back-To-Expenses,
+.button-Add-Expense{
+    border: none;
+    background-color: inherit;
+    color: #ffffff;
+    font-size: 16px; 
+    border-color: transparent;
+    transition: 0.5s;
+}
+
+.addExpense input,
+#category {
+    padding: 7px;
+    margin-bottom: 7px;
+    border: 1px solid #ebebeb;
+}
+
+.input-title {
+    display: flex;
+    font-size: 15px;
+    padding: 3% 2%;
+}
+
+
+.button-Add-Expense:hover,
+.button-Back-To-Expenses:hover{
+    border: 1px solid black;
+    border-radius: 5px;
+    /* transform: scale(1.1); */
+    cursor: pointer;
+}
