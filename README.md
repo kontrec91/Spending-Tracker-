@@ -1,1 +1,1 @@
-# Spending-Tracker-
+# Spending-Tracker
